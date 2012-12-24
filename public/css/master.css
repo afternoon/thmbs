@@ -1,0 +1,58 @@
+body, input {
+    margin: 0;
+    font: 9pt helvetica neue, helvetica, arial, sans-serif;
+    background: white;
+    color: #333;
+    text-shadow: white 0 1px 0;
+}
+
+body {
+    padding: 20pt;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a.button, input[type=submit] {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #3cf;
+    box-shadow: #057 0 3px 0;
+    color: #057;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div.index {
+    margin: 50pt;
+    text-align: center;
+}
+
+div.index h1 {
+    font-size: 100pt;
+    margin: 0 0 60pt 0;
+    padding: 0;
+}
+
+div.index a.button {
+    padding: 15px 30px;
+    font-size: 20pt;
+}
+
+label {
+    display: block;
+    margin-bottom: 5pt;
+}
+
+input {
+    font-size: 14pt;
+    margin-bottom: 14pt;
+}
+
+input[type=text] {
+    width: 300pt;
+}

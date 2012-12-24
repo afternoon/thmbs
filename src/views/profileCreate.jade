@@ -1,0 +1,8 @@
+extends base
+
+block content
+  form(action="/profile/create", method="post")
+    label Username
+    input(type="text", name="username")
+    .submit
+      input(type="submit", value="Create Profile")

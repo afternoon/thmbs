@@ -1,0 +1,16 @@
+{
+    "name": "thmbs",
+    "version": "0.1.0",
+    "dependencies": {
+        "connect": "*",
+        "dbox": "*",
+        "flatiron": "*",
+        "jade.plugin": "*",
+        "redis": "*",
+        "supervisor": "*",
+        "union": "*"
+    },
+    "scripts": {
+        "start": "supervisor -w src -e coffee src/main.coffee"
+    }
+}
