@@ -11,6 +11,6 @@
         "union": "*"
     },
     "scripts": {
-        "start": "supervisor -w src -e coffee src/main.coffee"
+        "start": "supervisor -w lib -e coffee lib/index.coffee"
     }
 }
