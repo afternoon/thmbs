@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h2= username
+
+  #sets
+    for s in sets
+      .set
+        img(src="#{s.thumbnailUrl}")

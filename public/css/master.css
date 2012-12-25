@@ -3,11 +3,16 @@ body, input {
     font: 9pt helvetica neue, helvetica, arial, sans-serif;
     background: white;
     color: #333;
-    text-shadow: white 0 1px 0;
+    text-shadow: 0 1px 0 white;
 }
 
 body {
     padding: 20pt;
+}
+
+div.footer {
+    margin-top: 50pt;
+    color: #999;
 }
 
 a {
@@ -55,4 +60,16 @@ input {
 
 input[type=text] {
     width: 300pt;
+}
+
+div.set {
+    display: inline-block;
+    border: 10px solid white;
+    box-shadow: 0 1px 3px #999;
+    margin: 0 10px 10px 0;
+}
+
+div.set img {
+    width: 60px;
+    height: 60px;
 }
