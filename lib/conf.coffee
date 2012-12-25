@@ -7,4 +7,4 @@ module.exports =
   dropbox:
     app_key: "sjgwyizggdny3fh"
     app_secret: "1djaku4c64jhssq"
-  oauthCallback: "http://localhost:8000/oauth/callback"
+  oauthCallback: "http://thmbs.jit.su/oauth/callback"
