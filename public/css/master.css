@@ -10,6 +10,16 @@ body {
     padding: 20pt;
 }
 
+h1 {
+    margin-top: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 12pt 0 30pt;
+    font-size: 32pt;
+}
+
 div.footer {
     margin-top: 50pt;
     color: #999;
@@ -62,14 +72,41 @@ input[type=text] {
     width: 300pt;
 }
 
-div.set {
+div.set, div.set:before, div.set:after {
+    position: relative;
     display: inline-block;
-    border: 10px solid white;
+    line-height: 0;
+    width: 180px;
+    height: 180px;
+    margin: 0 50px 50px 0;
+    background: #eff4de;
+    border: 8px solid white;
     box-shadow: 0 1px 3px #999;
-    margin: 0 10px 10px 0;
+}
+
+div.set:before, div.set:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -8px;
+
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+div.set:after {
+    top: -10px;
+    left: 0;
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
 }
 
 div.set img {
-    width: 60px;
-    height: 60px;
 }
