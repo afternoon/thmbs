@@ -1,8 +1,8 @@
 module.exports =
   redis:
-    host: "spadefish.redistogo.com"
-    port: 9572
-    password: "766e4614713df1ec72cf113f8db98367"
+    host: process.env.REDIS_HOST
+    port: process.env.REDIS_PORT
+    password: process.env.REDIS_PASSWORD
   port: 8000
   dropbox:
     app_key: "sjgwyizggdny3fh"
