@@ -1,6 +1,6 @@
 {
     "name": "thmbs",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependencies": {
         "async": "*",
         "connect": "*",
@@ -12,6 +12,10 @@
         "union": "*"
     },
     "scripts": {
-        "start": "supervisor -w lib -e coffee lib/index.coffee"
+        "start": "lib/index.coffee"
+    },
+    "subdomain": "thmbs",
+    "engines": {
+        "node": "0.8.x"
     }
 }
