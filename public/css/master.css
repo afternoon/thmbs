@@ -109,4 +109,6 @@ div.set:after {
 }
 
 div.set img {
+    width: 180px;
+    height: 180px;
 }
